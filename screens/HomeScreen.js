@@ -106,7 +106,9 @@ HomeScreen.navigationOptions = {
 };
 
 function handleLearnMorePress() {
-  WebBrowser.openBrowserAsync("https://github.com/maximilianoh/RN-Template");
+  WebBrowser.openBrowserAsync(
+    "https://github.com/maximilianoh/RN-Template/tree/feature-barcode-reader"
+  );
 }
 
 const styles = StyleSheet.create({
